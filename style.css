@@ -157,7 +157,7 @@ footer {
         gap: 0px;
         max-height: 100vh; 
         overflow-y: auto; 
-        padding-bottom: 40em;
+        padding-bottom: 5em;
 
       }
   .input-form {
@@ -218,14 +218,3 @@ footer {
     color: var(--clr-bluish);
   }
 }
-/* .main-container {
-    width: 400px;
-    margin: 50px 10px;
-    position: fixed;
-    top: 0; 
-    left: 0; 
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-  } */
