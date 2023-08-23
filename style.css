@@ -186,10 +186,6 @@ footer {
     height: 20px;
   }
   .container {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 30px 30px;
-    min-height: 600px;
     width: 350px;
   }
   .products-container {
@@ -197,7 +193,9 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 8px;
     font-size: 16px;
-    margin-left: -40px;
+    margin: auto;
+    margin-left: -10px;
+    margin-right: 60px;
   }
   .product {
     margin-bottom: 1rem;
