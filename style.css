@@ -183,14 +183,14 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2px;
     font-size: 16px;
-    padding: 20px;
+    padding: 30px;
   }
   .product {
     margin-bottom: 1rem;
   }
   img {
-    height: 7rem;
-    width: 10rem;
+    height: 5rem;
+    width: 8rem;
     border-radius: 7px;
   }
   footer {
