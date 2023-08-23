@@ -151,13 +151,14 @@ footer {
         top: 50%; /* Center the container vertically */
         transform: translateY(-50%);
         left: 0;
-        padding: 0px;
+        padding-bottom: 60px;
         display: flex;
         flex-direction: column;
         gap: 0px;
         max-height: 100vh; 
         overflow-y: auto; 
-        padding-bottom: 60px;
+        padding-bottom: 40em;
+
       }
   .input-form {
     border: none;
@@ -188,7 +189,6 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
     padding: 30px 30px;
-    padding-bottom: 50px;
     min-height: 600px;
     width: 350px;
   }
