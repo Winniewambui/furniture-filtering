@@ -143,15 +143,14 @@ footer {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .main-container {
-    width: 600px;
+    width: 460px;
     margin-top: 20px;
     margin: 50px;
     padding: 0px;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
     gap: 0px;
   }
   .input-form {
@@ -190,8 +189,8 @@ footer {
     margin-bottom: 1rem;
   }
   img {
-    height: 13rem;
-    width: 15rem;
+    height: 10rem;
+    width: 12rem;
     border-radius: 7px;
   }
   footer {
