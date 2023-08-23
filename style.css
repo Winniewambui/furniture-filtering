@@ -101,7 +101,7 @@ footer {
   color: var(--clr-bluish);
 }
 @media screen and (min-width: 481px) and (max-width: 1024px) {
-    .main-container {
+  .main-container {
     margin: 50px 10px;
     max-width: 700px;
     margin-top: 20px;
@@ -189,7 +189,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 5px;
     font-size: 16px;
-        margin-left: -30px;
+    margin-left: -50px;
   }
   .product {
     margin-bottom: 1rem;
