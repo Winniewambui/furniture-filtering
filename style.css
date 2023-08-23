@@ -14,6 +14,7 @@ body {
 }
 .main-container {
   margin: 80px 10px;
+  padding: 20px 50px;
   display: flex;
   gap: 10em;
 }
@@ -101,7 +102,11 @@ footer {
     .main-container {
     margin: 50px 10px;
     max-width: 700px;
-    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     gap: 2em;
   }
@@ -142,8 +147,12 @@ footer {
 @media screen and (max-width: 480px) {
   .main-container {
     max-width: 450px;
-    margin: 20px 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 40px 70px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
     gap: 0px;
