@@ -41,6 +41,7 @@ aside {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-left: 20px;
 }
 
 .buttons {
@@ -50,7 +51,7 @@ aside {
   margin-top: 0;
 }
 h3 {
-  margin-bottom: 0;
+  margin-top: 20px;
   text-transform: uppercase;
   color: var(--clr-bluish);
 }
@@ -103,10 +104,8 @@ footer {
     margin: 50px 10px;
     max-width: 700px;
     margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     gap: 2em;
   }
@@ -144,17 +143,15 @@ footer {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .main-container {
-    max-width: 450px;
+    width: 600px;
     margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 40px 70px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 50px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
+    border: 2px solid red;
     gap: 0px;
   }
   .input-form {
@@ -185,16 +182,17 @@ footer {
   .products-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    column-gap: 2px;
     font-size: 16px;
+    padding: 20px;
   }
   .product {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
   img {
-    height: 5rem;
-    width: 6rem;
-    border-radius: 5px;
+    height: 13rem;
+    width: 15rem;
+    border-radius: 7px;
   }
   footer {
     text-align: center;
